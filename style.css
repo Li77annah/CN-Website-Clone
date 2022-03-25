@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+  
+body {
+    background-color: white;
+}
+
+body {
+    background-image: url("GalleryPic.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-size: initial; */
+    background-size: 800px 800px;
+    margin: auto;
+}
+
+  
+#navbar ol {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+  
+#navbar ol :hover {
+  text-decoration: underline;
+}
+
+.nav {
+  font-size: 10px;
+}
+
+.action {
+  font-size: 10px;
+}
+
+.logo {
+  position: left top;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 190px;
+}
+
+.artistname {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 100px;
+  }
+
+.time {
+  font-size: 10px;
+  text-decoration: none; 
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  padding-left: 100px;
+  padding-bottom: 220px;
+  }
+
+.locations {
+  font-size: 10px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  gap: 5px;
+  padding-left: 50px;
+}
+
+
