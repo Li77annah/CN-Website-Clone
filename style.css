@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
   
 body {
-    background-color: white;
+  background-color: white;
 }
 
 body {
-    background-image: url("GalleryPic.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 800px 800px;
-    margin: auto;
+  background-image: url("GalleryPic.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 800px 800px;
+  margin: auto;
 }
 
 #navcontainer {
@@ -53,25 +53,37 @@ li {
   font-size: 10px;
   padding-left: 280px;
   padding-top: 24px;
+  padding-right: 30px;
 }
 
 .search :hover {
   text-decoration: underline;
 }
 
-.contact {
+#contact {
   color: black;
   text-decoration: none;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 10px;
-  padding-left: 40px;
-  padding-top: 24px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
-.contact :hover {
-  text-decoration: underline;
+#contact {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid gray;
+  transition: background-position .3s;
+  transition: all .4s ease;
+}
+
+#contact:hover {
+  color: white;
+  background-color: black;
+  transition: all .4s ease;
 }
 
 .artistname {
